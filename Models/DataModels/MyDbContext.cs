@@ -10,7 +10,7 @@ namespace BaiTap.Models.DataModels
     {
         public MyDbContext() : base ("name=Access")
         {
-            //Database.SetInitializer(new MigrateDatabaseToLatestVersion<MyDbContext,Migrations.Configuration>("Access"));
+            Database.SetInitializer(new MigrateDatabaseToLatestVersion<MyDbContext,Migrations.Configuration>("Access"));
         }
         public DbSet<Category> Categories { get; set; }
         public DbSet<Product> Products { get; set; }

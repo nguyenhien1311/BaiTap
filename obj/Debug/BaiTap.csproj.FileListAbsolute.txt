@@ -55,6 +55,7 @@ C:\Users\admin\Source\Repos\BaiTap\bin\System.Web.WebPages.Deployment.dll
 C:\Users\admin\Source\Repos\BaiTap\bin\System.Web.WebPages.dll
 C:\Users\admin\Source\Repos\BaiTap\bin\System.Web.WebPages.Razor.dll
 C:\Users\admin\Source\Repos\BaiTap\bin\WebGrease.dll
+C:\Users\admin\Source\Repos\BaiTap\bin\Antlr3.Runtime.pdb
 C:\Users\admin\Source\Repos\BaiTap\bin\Autofac.xml
 C:\Users\admin\Source\Repos\BaiTap\bin\CKSource.CKFinder.Connector.Config.xml
 C:\Users\admin\Source\Repos\BaiTap\bin\CKSource.CKFinder.Connector.Core.xml
@@ -74,8 +75,9 @@ C:\Users\admin\Source\Repos\BaiTap\bin\System.Web.WebPages.xml
 C:\Users\admin\Source\Repos\BaiTap\bin\System.Web.WebPages.Deployment.xml
 C:\Users\admin\Source\Repos\BaiTap\bin\System.Web.WebPages.Razor.xml
 C:\Users\admin\Source\Repos\BaiTap\bin\Newtonsoft.Json.xml
-C:\Users\admin\Source\Repos\BaiTap\bin\Antlr3.Runtime.pdb
 C:\Users\admin\Source\Repos\BaiTap\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\admin\Source\Repos\BaiTap\obj\Debug\BaiTap.Migrations.InitialCreate.resources
+C:\Users\admin\Source\Repos\BaiTap\obj\Debug\BaiTap.csproj.GenerateResource.cache
 C:\Users\admin\Source\Repos\BaiTap\obj\Debug\BaiTap.csproj.CoreCompileInputs.cache
 C:\Users\admin\Source\Repos\BaiTap\obj\Debug\BaiTap.csproj.CopyComplete
 C:\Users\admin\Source\Repos\BaiTap\obj\Debug\BaiTap.dll
