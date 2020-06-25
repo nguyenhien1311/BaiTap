@@ -34,6 +34,7 @@ namespace BaiTap.Controllers
             return View(_ctx.Get(id));
         }
         [HttpPost]
+        [ValidateInput(false)]
         public ActionResult Edit(Category c)
         {
             if (_ctx.Edit(c))
@@ -52,6 +53,7 @@ namespace BaiTap.Controllers
             return View();
         }
         [HttpPost]
+        [ValidateInput(false)]
         public ActionResult Create(Category c)
         {
             if (_ctx.Add(c))

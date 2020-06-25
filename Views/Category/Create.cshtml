@@ -27,7 +27,8 @@
             @Html.LabelFor(model => model.Description, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
                 <div id="toolbar-container"></div>
-                @Html.EditorFor(model => model.Description, new { htmlAttributes = new { @class = "form-control", @id = "editor" } })
+                <div id="editor"></div>
+                @Html.TextAreaFor(model => model.Description, new { htmlAttributes = new { @class = "form-control hidden" } })
                 @Html.ValidationMessageFor(model => model.Description, "", new { @class = "text-danger" })
             </div>
         </div>
@@ -51,6 +52,9 @@
         DecoupledEditor
             .create(document.querySelector('#editor'))
             .then(editor => {
+                editor.model.document.on('change:data', () => {
+                    $("#Description").val(editor.getData());
+                })
                 const toolbarContainer = document.querySelector('#toolbar-container');
 
                 toolbarContainer.appendChild(editor.ui.view.toolbar.element);
